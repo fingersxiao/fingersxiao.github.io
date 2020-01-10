@@ -1293,7 +1293,6 @@ blockquote footer cite:before {
 .article-container .highlight {
   position: relative;
   border-radius: 1px;
-  display: none;
 }
 .article-container .highlight pre {
   margin: 0;
@@ -2102,15 +2101,6 @@ blockquote footer cite:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-}
-#footer:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
 }
 #footer-wrap {
   position: relative;
